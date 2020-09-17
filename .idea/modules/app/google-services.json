@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "813659233739",
+    "firebase_url": "https://dmessenger-921c7.firebaseio.com",
+    "project_id": "dmessenger-921c7",
+    "storage_bucket": "dmessenger-921c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813659233739:android:8d93bddc4b95b13d816a4e",
+        "android_client_info": {
+          "package_name": "com.example.dmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813659233739-3e0brrj2tl3mjg3597b3mgdbt011ahic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dmessenger",
+            "certificate_hash": "8a474b7ca4893e954d213ecd9dbef6ee1141b8ee"
+          }
+        },
+        {
+          "client_id": "813659233739-obkmld0jlr4edq7lmldf44pdev87mlb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyIcY0RbEoFM-cmumEVAt2rTExOtYzOT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813659233739-obkmld0jlr4edq7lmldf44pdev87mlb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

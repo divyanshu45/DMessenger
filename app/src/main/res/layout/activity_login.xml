@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f48fb1"
+    tools:context=".registerlogin.LoginActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/message"/>
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Messenger"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/logo"/>
+
+    <LinearLayout
+        android:id="@+id/container_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_below="@+id/head"
+        android:layout_margin="12dp"
+        android:background="@drawable/container_bg">
+
+        <EditText
+            android:id="@+id/email_edittext_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext_register_login"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_mail"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/password_edittext_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_edittext_register_login"
+            android:ems="10"
+            android:padding="12dp"
+            android:paddingLeft="20dp"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/ic_pass"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login_button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Login"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/back_to_register_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have account? Register"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/container_login"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
